@@ -66,6 +66,7 @@ static const struct arg args[] = {
 	{ datetime, "%s  |  ",           "%F %T" },
 	{ wifi_essid, "net %s  |  ",           "wlp2s0" },
 	{ keymap, "%s  |  ",           NULL },
+	{ cpu_perc, "cpu %%%s  |  ",           NULL },
 	{ ram_perc, "ram %%%s  |  ",           NULL },
 	{ disk_perc, "disk %%%s  |  ",           "/" },
 	{ battery_perc, "bat %%%s  ",           "BAT0" },
